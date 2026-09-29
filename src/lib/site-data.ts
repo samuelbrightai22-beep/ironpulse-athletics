@@ -53,11 +53,11 @@ const IMG = {
   apexTee: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
   forgeHoodie: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
   // Women's products
-  sculptLeggings: "https://images.unsplash.com/photo-1506629905877-52cfbee7c565?auto=format&fit=crop&w=800&q=80",
-  contourLeggings: "https://images.unsplash.com/photo-1485230792170-60aa2eb70505?auto=format&fit=crop&w=800&q=80",
+  sculptLeggings: "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/20328b08b526.jpg",
+  contourLeggings: "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8dd0846638e7.jpg",
   // Equipment
   hexDumbbell: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?auto=format&fit=crop&w=800&q=80",
-  dumbbellSet: "https://images.unsplash.com/photo-1574676523510-304b4a4e4b45?auto=format&fit=crop&w=800&q=80",
+  dumbbellSet: "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e68b8b9dbaf5.jpg",
   kettlebell: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80",
   // Accessories
   speedRope: "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=800&q=80",

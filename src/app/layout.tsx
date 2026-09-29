@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Fraunces } from "next/font/google";
+import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { SiteHeader } from "@/components/site/site-header";
@@ -11,41 +11,42 @@ const inter = Inter({
   display: "swap",
 });
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+const oswald = Oswald({
+  variable: "--font-oswald",
   subsets: ["latin"],
   display: "swap",
-  axes: ["opsz", "SOFT"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Hearth & Harbor — Considered Goods for the Modern Home",
+  title: "IRONPULSE ATHLETICS — Train Hard. Live Strong.",
   description:
-    "Hearth & Harbor is a curated marketplace for considered home goods — kitchen, dining, bath, decor, tools, watches, and books. Free shipping on orders over $75.",
+    "IRONPULSE ATHLETICS is a strength-training brand built for people who show up. Shop performance apparel, training equipment and gym accessories engineered to outlast your hardest sessions.",
   keywords: [
-    "home goods",
-    "kitchenware",
-    "bath essentials",
-    "home decor",
-    "curated marketplace",
-    "considered goods",
-    "Hearth & Harbor",
+    "gym apparel",
+    "training equipment",
+    "strength training",
+    "performance wear",
+    "dumbbells",
+    "kettlebells",
+    "athletic gear",
+    "IRONPULSE ATHLETICS",
   ],
-  authors: [{ name: "Hearth & Harbor" }],
+  authors: [{ name: "IRONPULSE ATHLETICS" }],
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "Hearth & Harbor — Considered Goods for the Modern Home",
+    title: "IRONPULSE ATHLETICS — Train Hard. Live Strong.",
     description:
-      "A curated marketplace for considered home goods — kitchen, dining, bath, decor, tools, watches, and books.",
-    siteName: "Hearth & Harbor",
+      "Performance apparel, equipment and accessories built for people who show up. Designed in Brooklyn, tested on gym floors since 2018.",
+    siteName: "IRONPULSE ATHLETICS",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hearth & Harbor",
-    description: "Considered goods for the modern home.",
+    title: "IRONPULSE ATHLETICS",
+    description: "Train Hard. Live Strong.",
   },
 };
 
@@ -57,7 +58,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${fraunces.variable} antialiased bg-background text-foreground`}
+        className={`${inter.variable} ${oswald.variable} antialiased bg-background text-foreground`}
       >
         <div className="flex min-h-screen flex-col">
           <SiteHeader />

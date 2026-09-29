@@ -1,9 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Note: we intentionally do NOT set `output: "standalone"` here.
-  // OpenNext for Cloudflare handles the build output transformation
-  // via open-next.config.ts and the build:cloudflare script.
+  // Vercel auto-detects Next.js — `output: "standalone"` is for Docker/Cloudflare.
+  // Leave default for Vercel.
   typescript: {
     ignoreBuildErrors: true,
   },
